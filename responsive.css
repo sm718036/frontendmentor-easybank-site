@@ -1,0 +1,247 @@
+@media(max-width: 1200px){
+    .hero-right {
+        background-size: contain;
+    }
+    .articles {
+        row-gap: 1rem;
+    }
+}
+
+@media(max-width: 992px){
+    .hero-left {
+        width: 60%;
+        padding-left: 5rem;
+    }
+    .articles-container {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    .article-card {
+        width: 100%;
+        flex-direction: row;
+    }
+    .article-card img {
+        width: 50%;
+        height: 100%;
+    }
+    .article-content {
+        width: 50%;
+        margin: auto 0;
+        padding: 2rem;
+    }
+}
+
+@media(max-width: 768px){
+    nav {
+        width: 100%;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        position: relative;
+    }
+    .menu,
+    .invite-btn.nav,
+    i.fa-xmark {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .menu {
+        width: 100%;
+        position: absolute;
+        top: 150px;
+        left: 0%;
+    }
+    .menu ul {
+        width: 100%;
+        flex-direction: column;
+    }
+    .menu ul li {
+        margin: 0;
+        padding: 0.5rem;
+    }
+    .menu ul li:hover {
+        transition: all 0.1s ease-in;
+        color: black;
+    }
+    .hero-section {
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 3rem;
+        padding-bottom: 3rem;
+    }
+    .hero-right {
+        height: 50vh;
+        width: 100%;
+        align-items: center;
+        background: url(../images/bg-intro-mobile.svg) center no-repeat;
+        background-size: cover;
+    }
+    img.mobiles-pic {
+        width: 100%;
+        top: -75%;
+        right: 0%;
+    }
+    .hero-left {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        row-gap: 2rem;
+        padding: 0 6rem;
+    }
+    .hero-left h1 {
+        font-size: 45px;
+        font-weight: 400;
+    }
+    .hero-left p {
+        padding-right: 0;
+    }
+    .features {
+        align-items: center;
+        text-align: center;
+        row-gap: 3rem;
+        padding: 3em 6rem;
+    }
+    .features-heading h1 {
+        margin-bottom: 1rem;
+    }
+    .features-heading p {
+        width: 100%;
+    }
+    .features-desc {
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+    .feature-card {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        row-gap: 0.5rem;
+    }
+    .articles {
+        padding: 2rem;
+    }
+    .article-card img {
+        width: 50%;
+    }
+    .article-content {
+        width: 50%;
+        padding: 2rem;
+    }
+    footer {
+        width: 100%;
+        height: fit-content;
+        flex-wrap: wrap;
+        flex-direction: row;
+        row-gap: 2rem;
+        padding: 2rem 6rem;
+    }
+    footer>div {
+        width: 45%;
+    }
+    .footer-menu-2 {
+        order: 2;    
+    }
+}
+
+@media(max-width: 600px){
+    .hero-left h1 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .features {
+        padding: 2rem 3rem;
+    }
+    footer {
+        padding: 2rem 0;
+    }
+    footer>div {
+        width: 100%;
+    }
+    .footer-logo,
+    .copyright {
+        align-items: center;
+    }
+    .copyright {
+        order: 4;
+    }
+    .footer-menu-2,
+    .footer-menu-1 {
+        text-align: center;
+    }
+}
+
+@media(max-width: 414px){
+    .hero-section {
+        row-gap: 0;
+        justify-content: center;
+    }
+    img.mobiles-pic {
+        width: 100%;
+        top: -35%;
+        right: 0%;
+    }
+    .hero-left {
+        padding: 0 0.5rem;
+    }
+    .hero-left h1 {
+        width: 70%;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .features {
+        padding: 2rem;
+    }
+    .articles {
+        padding: 2rem 1rem;
+    }
+    .articles-container {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    .article-card {
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+    }
+    .article-card img {
+        width: 100%;
+    }
+    .article-content {
+        width: 100%;
+        padding: 2rem;
+    }
+    footer {
+        padding: 2rem 0;
+    }
+    footer>div {
+        width: 100%;
+    }
+    .footer-logo,
+    .copyright {
+        align-items: center;
+    }
+    .copyright {
+        order: 4;
+    }
+    .footer-menu-2,
+    .footer-menu-1 {
+        text-align: center;
+    }
+}
+
+@media(max-width: 375px){
+    .hero-left h1 {
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+}
+
+@media(min-height: 895px){
+    img.mobiles-pic {
+        width: 100%;
+        top: -32%;
+        right: 0%;
+    }
+}
