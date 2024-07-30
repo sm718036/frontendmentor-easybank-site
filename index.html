@@ -18,28 +18,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="logo">
-        <img src="./images/logo.svg" alt="Logo">
-      </div>
-      <div class="hamburger" id="hamburger-container">
-        <i class="fa-solid fa-bars"></i>
-        <i class="fa-solid fa-xmark"></i>
-      </div>
-      <div class="menu" id="menu-container">
-        <ul>
-          <li><a href="#home" class="active">Home</a></li>
-          <li><a href="about">About</a></li>
-          <li><a href="contact">Contact</a></li>
-          <li><a href="blog">Blog</a></li>
-          <li><a href="careers">Careers</a></li>
-        </ul>
-      </div>
-      <div class="invite-btn nav" id="invite-btn">
-        Request Invite
-      </div>
-    </nav>
+  <nav>
+    <img src="./images/logo.svg" alt="Logo" class="logo">
+    <div class="hamburger" id="hamburger-container">
+      <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+    <ul class="menu" id="menu-container">
+      <li><a href="#home" class="active" data-id="home">Home</a></li>
+      <li><a href="#about" data-id="about">About</a></li>
+      <li><a href="#contact" data-id="contact">Contact</a></li>
+      <li><a href="#blog" data-id="blog">Blog</a></li>
+      <li><a href="#careers" data-id="careers">Careers</a></li>
+    </ul>
+    <div class="invite-btn nav" id="invite-btn">
+      Request Invite
+    </div>
+  </nav>
+  <section id="hero-section">
     <div class="hero-section" id="home">
       <div class="hero-right">
         <img class="mobiles-pic" src="./images/image-mockups.png" alt="mobile illustration">
@@ -53,7 +49,7 @@
         </div>
       </div>
     </div>
-  </header>
+  </section>
   <section class="features" id="about">
     <div class="features-heading">
       <h1>Why choose Easybank?</h1>
